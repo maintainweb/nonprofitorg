@@ -1,0 +1,108 @@
+/*
+Theme Name:     Non Profit Org Theme
+Theme URI:      https://maintainweb.co/wordpress/themes/1step2star/
+Description:    A theme with features for fund raising. Child theme for the Roots framework.
+Author:         Erik James Albaugh
+Author URI:     https://maintainweb.co
+Template:       roots
+Version:        0.1
+*/
+
+
+body {
+  font-family: 'Gudea', sans-serif;
+  background-color: rgba(237,237,237,1);
+}
+
+body.home .page-header {
+  display: none;
+}
+
+#nav-main {
+  float: right;
+  margin-top: 80px;
+}
+
+#nav-main .nav-tabs > li, #nav-main .nav-pills > li {
+  margin-right: 40px;
+}
+
+.brand {
+  background: url(http://localhost.maintain/maintaintheweb.biz/assets/1Step2Star2-logo.png) center center transparent no-repeat;
+  background-size: 80%;
+  text-indent: -9999px;
+  width: 200px;
+  height: 200px;
+  display: block;
+  float: left;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+
+
+.container, .navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 960px;
+  background-color: #fff;
+}
+
+.outer-wrap {
+  z-index: 0;
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+	-moz-box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+}
+
+.span12 { width: 920px; }
+#main.span12 { width: 880px; padding-right: 40px; }
+
+.span8 { width: 570px; }
+.span4 { width: 280px; }
+
+#main,
+#sidebar,
+#content-info section { padding-left: 40px; }
+
+
+footer .widget {
+  width: 280px;
+  float: left;
+}
+
+.widget-last { }
+
+#content-info p {
+  float: left;
+  clear: both;
+  padding: 20px 0 20px 40px;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+  color: white;
+  background-color: rgba(199,29,41,1);
+}
+
+.nav-pills a:hover {
+  color: rgba(199,29,41,1);
+}
+
+a {
+  color: rgba(199,29,41,1);
+  text-decoration: none;
+}
+
+#carousel-wrap {
+  margin-top: -50px;
+}
+
+#carousel-wrap.span12 {
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 880px;
+}
+
